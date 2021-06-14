@@ -1,6 +1,8 @@
 package step1_05.constrolStatement;
 /*
  * 
+ * 
+ * 
  *  # 조건문 if 
  * 
  *  조건식이 true이면 실행되는 구문 ( false면 실행 x )
@@ -23,7 +25,7 @@ public class IfEx01 {
 		if (true) {//if문 안에 종속된 명령어는 tab으로 들여쓰기 한 후에 작성한다.		
 			System.out.println("실행 0");}
 			
-		int number = 9;
+		int number = 12;
 		
 		if (number % 2 == 0) {
 			System.out.println("짝수"); 
